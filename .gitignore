@@ -1,0 +1,10 @@
+nimcache
+testresults*
+examples/*
+!examples/assets/
+bin/*
+!*.nim
+!*.nims
+nimbledeps/*
+nim.cfg
+
