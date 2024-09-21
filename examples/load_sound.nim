@@ -2,7 +2,6 @@ import
   std/os,
   pkg/saohime,
   pkg/saohime/default_plugins,
-  pkg/slappy,
   ../src/saohime_audio
 
 proc setup(

@@ -1,5 +1,6 @@
 import
   pkg/saohime,
+  pkg/slappy,
   saohime_audio/components,
   saohime_audio/resources,
   saohime_audio/systems
@@ -13,6 +14,7 @@ proc build*(plugin: AudioPlugin, world: World) =
   world.registerTerminateSystems(quitAudio)
 
 export
+  slappy,
   components,
   resources,
   systems
